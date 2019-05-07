@@ -1,0 +1,1647 @@
+# Copyright (C) 2015 BuddyPress Links
+# This file is distributed under the same license as the BuddyPress Links package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Links 0.9.4-dev\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-links\n"
+"POT-Creation-Date: 2015-07-24 19:41:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (BuddyPress Links 0.9.4-dev)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: bp-links-admin.php:26 themes/bp-links-admin/index.php:17
+#: themes/bp-links-admin/index.php:50
+msgid "BuddyPress Links"
+msgstr ""
+
+#: bp-links-admin.php:26
+msgid "BP Links"
+msgstr ""
+
+#: bp-links-admin.php:27 themes/bp-links-admin/index.php:122
+msgid "Support"
+msgstr ""
+
+#: bp-links-admin.php:28
+msgid "Settings"
+msgstr ""
+
+#: bp-links-admin.php:29
+msgid "Categories"
+msgstr ""
+
+#: bp-links-admin.php:30
+msgid "Manager"
+msgstr ""
+
+#: bp-links-admin.php:74
+msgid "Global"
+msgstr ""
+
+#: bp-links-admin.php:78
+msgid "Directory"
+msgstr ""
+
+#: bp-links-admin.php:82
+msgid "Content"
+msgstr ""
+
+#: bp-links-admin.php:86
+msgid "Voting"
+msgstr ""
+
+#: bp-links-admin.php:90
+msgid "Profile"
+msgstr ""
+
+#: bp-links-admin.php:94
+msgid "Groups"
+msgstr ""
+
+#: bp-links-admin.php:149
+msgid "There were errors when deleting links."
+msgstr ""
+
+#: bp-links-admin.php:149 bp-links-admin.php:195 bp-links-admin.php:249
+#: bp-links-admin.php:256 bp-links-admin.php:261 bp-links-admin.php:275
+#: bp-links-admin.php:288 bp-links-admin.php:293 bp-links-admin.php:309
+#: bp-links-core.php:923 bp-links-core.php:959 bp-links-core.php:975
+#: bp-links-core.php:1242 bp-links-embed.php:161 bp-links-embed.php:165
+msgid "Please try again."
+msgstr ""
+
+#: bp-links-admin.php:152
+msgid "Links deleted successfully"
+msgstr ""
+
+#: bp-links-admin.php:192
+msgid "Categories deleted successfully"
+msgstr ""
+
+#: bp-links-admin.php:195
+msgid "There were errors when deleting categories."
+msgstr ""
+
+#: bp-links-admin.php:199
+msgid "Unable to delete a category because it is assigned to one or more links"
+msgstr ""
+
+#: bp-links-admin.php:249
+msgid "Link category slug from this name already exists."
+msgstr ""
+
+#: bp-links-admin.php:256
+msgid "Link category name must be %1$d to %2$d characters in length."
+msgstr ""
+
+#: bp-links-admin.php:261
+msgid "Link category name is required."
+msgstr ""
+
+#: bp-links-admin.php:275
+msgid "Link category description must be %1$d to %2$d characters in length."
+msgstr ""
+
+#: bp-links-admin.php:288
+msgid "Link category priority must be a number from %1$d to %2$d."
+msgstr ""
+
+#: bp-links-admin.php:293
+msgid "Link category priority is required."
+msgstr ""
+
+#: bp-links-admin.php:302
+msgid "Link category saved!"
+msgstr ""
+
+#: bp-links-admin.php:303
+msgid "Return to list"
+msgstr ""
+
+#: bp-links-admin.php:304
+msgid "or"
+msgstr ""
+
+#: bp-links-admin.php:305
+msgid "Create new category"
+msgstr ""
+
+#: bp-links-admin.php:309
+msgid "There were errors when saving the link category."
+msgstr ""
+
+#: bp-links-admin.php:338
+msgid "Edit Category"
+msgstr ""
+
+#: bp-links-admin.php:339
+msgid "Update Category"
+msgstr ""
+
+#: bp-links-admin.php:343 themes/bp-links-admin/category-list.php:111
+msgid "New Category"
+msgstr ""
+
+#: bp-links-admin.php:344
+msgid "Add Category"
+msgstr ""
+
+#: bp-links-ajax.php:27
+msgid "Vote recorded."
+msgstr ""
+
+#: bp-links-ajax.php:29
+msgid "You have already voted."
+msgstr ""
+
+#: bp-links-ajax.php:32
+msgid "There was a problem recording your vote. Please try again."
+msgstr ""
+
+#: bp-links-ajax.php:37
+msgid "You must be logged in to vote!"
+msgstr ""
+
+#: bp-links-ajax.php:93
+msgid "Auto-fill not available for this URL."
+msgstr ""
+
+#: bp-links-ajax.php:112
+msgid "Invalid request"
+msgstr ""
+
+#: bp-links-component.php:13
+msgctxt "Link screen page <title>"
+msgid "User Links"
+msgstr ""
+
+#: bp-links-component.php:55
+msgid "Search Links..."
+msgstr ""
+
+#: bp-links-core.php:281 bp-links-core.php:297 bp-links-core.php:314
+#: bp-links-core.php:476 bp-links-core.php:555 bp-links-core.php:653
+#: bp-links-core.php:683 bp-links-loader.php:115
+#: bp-links-templatetags.php:1508 bp-links-widgets.php:13
+#: themes/bp-links-admin/category-list.php:70
+msgid "Links"
+msgstr ""
+
+#: bp-links-core.php:496 bp-links-core.php:513 bp-links-dtheme.php:73
+#: bp-links-dtheme.php:131
+msgid "My Links"
+msgstr ""
+
+#: bp-links-core.php:517 bp-links-core.php:669 bp-links-dtheme.php:119
+msgid "Create"
+msgstr ""
+
+#: bp-links-core.php:569
+msgid "Home"
+msgstr ""
+
+#: bp-links-core.php:585
+msgid "Admin"
+msgstr ""
+
+#: bp-links-core.php:661
+msgid "List"
+msgstr ""
+
+#: bp-links-core.php:705
+msgid "Admin Options"
+msgstr ""
+
+#: bp-links-core.php:708 bp-links-templatetags.php:821
+#: themes/bp-links-default/single/forms/delete.php:5
+#: themes/bp-links-default/single/forms/delete.php:16
+msgid "Delete Link"
+msgstr ""
+
+#: bp-links-core.php:719
+msgid "Random Link"
+msgstr ""
+
+#: bp-links-core.php:914
+msgid "Link details were successfully updated."
+msgstr ""
+
+#: bp-links-core.php:923
+msgid "There was an error updating link details."
+msgstr ""
+
+#: bp-links-core.php:957
+msgid "Your avatar was deleted successfully!"
+msgstr ""
+
+#: bp-links-core.php:959
+msgid "There was a problem deleting that avatar"
+msgstr ""
+
+#: bp-links-core.php:973
+msgid "The link avatar was uploaded successfully!"
+msgstr ""
+
+#: bp-links-core.php:975 bp-links-embed.php:161
+msgid "There was an error saving link avatar."
+msgstr ""
+
+#: bp-links-core.php:1036
+msgid "The link was deleted successfully"
+msgstr ""
+
+#: bp-links-core.php:1039
+msgid "There was an error deleting the link, please try again."
+msgstr ""
+
+#: bp-links-core.php:1056
+msgid "Please fill in all of the required fields"
+msgstr ""
+
+#: bp-links-core.php:1076
+msgid ""
+"Link URL must be %1$d characters or less, please make corrections and re-"
+"submit."
+msgstr ""
+
+#: bp-links-core.php:1079
+msgid "The URL you entered is not valid."
+msgstr ""
+
+#: bp-links-core.php:1087
+msgid "The URL you entered already exists."
+msgstr ""
+
+#: bp-links-core.php:1105
+msgid ""
+"Link Name must be %1$d characters or less, please make corrections and re-"
+"submit."
+msgstr ""
+
+#: bp-links-core.php:1122
+msgid ""
+"Link Description must be %1$d characters or less, please make corrections "
+"and re-submit."
+msgstr ""
+
+#: bp-links-core.php:1227
+msgid "%1$s created the link %2$s"
+msgstr ""
+
+#: bp-links-core.php:1242
+msgid "There was an error saving link details."
+msgstr ""
+
+#: bp-links-core.php:1330
+msgid "Created a link"
+msgstr ""
+
+#: bp-links-core.php:1331
+msgid "Voted on a link"
+msgstr ""
+
+#: bp-links-core.php:1332
+msgid "Commented on a link"
+msgstr ""
+
+#: bp-links-core.php:1388
+msgid "Link Example Event"
+msgstr ""
+
+#: bp-links-core.php:1388
+msgid "%d number of example events happened for the link \"%s\""
+msgstr ""
+
+#: bp-links-core.php:1391
+msgid "%1$s triggered a notification for the link \"%2$s\""
+msgstr ""
+
+#: bp-links-core.php:1775 bp-links-templatetags.php:816
+#: themes/bp-links-default/single/forms/avatar.php:5
+msgid "Link Avatar"
+msgstr ""
+
+#: bp-links-core.php:1903
+msgid "%s posted a comment on the link %s:"
+msgstr ""
+
+#: bp-links-core.php:1989
+msgid "up"
+msgstr ""
+
+#: bp-links-core.php:1989
+msgid "down"
+msgstr ""
+
+#: bp-links-core.php:1992
+msgid "%1$s voted %2$s the link %3$s"
+msgstr ""
+
+#: bp-links-dtheme.php:72
+msgid "The activity of links I created."
+msgstr ""
+
+#: bp-links-dtheme.php:86
+msgid "Show Link Created"
+msgstr ""
+
+#: bp-links-dtheme.php:87
+msgid "Show Link Comments"
+msgstr ""
+
+#: bp-links-dtheme.php:88
+msgid "Show Link Votes"
+msgstr ""
+
+#: bp-links-dtheme.php:110
+msgid "Search"
+msgstr ""
+
+#: bp-links-dtheme.php:120
+msgid "Start Over"
+msgstr ""
+
+#: bp-links-dtheme.php:140
+msgid "Create a Link"
+msgstr ""
+
+#: bp-links-dtheme.php:149
+msgid "Order By:"
+msgstr ""
+
+#: bp-links-dtheme.php:163
+msgid "Category:"
+msgstr ""
+
+#: bp-links-dtheme.php:165 bp-links-templatetags.php:1464
+msgid "All"
+msgstr ""
+
+#: bp-links-embed-classes.php:338 bp-links-embed-classes.php:997
+msgid "Downloading content details from %1$s failed."
+msgstr ""
+
+#: bp-links-embed-classes.php:338
+#: themes/bp-links-default/single/forms/details.php:32
+msgid "URL"
+msgstr ""
+
+#: bp-links-embed-classes.php:987
+msgid "The URL you entered is not a valid %1$s link."
+msgstr ""
+
+#: bp-links-embed-classes.php:992
+msgid "The code you entered is not valid %1$s embedding code."
+msgstr ""
+
+#: bp-links-embed-services.php:120
+msgid "Web Page"
+msgstr ""
+
+#: bp-links-embed-services.php:458
+msgid "YouTube"
+msgstr ""
+
+#: bp-links-embed-services.php:699
+msgid "Flickr"
+msgstr ""
+
+#: bp-links-embed-services.php:919
+msgid "MetaCafe"
+msgstr ""
+
+#: bp-links-embed.php:114
+msgid "Upload Failed! Error was:"
+msgstr ""
+
+#: bp-links-embed.php:165
+msgid "Downloading image from remote website failed."
+msgstr ""
+
+#: bp-links-embed.php:169
+msgid "The embedding code you entered was not recognized."
+msgstr ""
+
+#: bp-links-embed.php:230
+msgid "Clear"
+msgstr ""
+
+#: bp-links-embed.php:233
+msgid "Fetch Page Details"
+msgstr ""
+
+#: bp-links-embed.php:312
+msgid "Rich Media Detected:"
+msgstr ""
+
+#: bp-links-embed.php:320
+msgid "Thumbs"
+msgstr ""
+
+#: bp-links-embed.php:323
+msgid "No Thumbnail"
+msgstr ""
+
+#: bp-links-embed.php:332
+msgid "Edit Name and Description"
+msgstr ""
+
+#: bp-links-notifications.php:19
+msgid "%s commented on your link \"%s\""
+msgstr ""
+
+#: bp-links-notifications.php:21
+msgid ""
+"%s commented on your link \"%s\":\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"To view and respond to the message, log in and visit: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+
+#: bp-links-notifications.php:31 bp-links-notifications.php:82
+msgid "To disable these notifications please log in and go to: %s"
+msgstr ""
+
+#: bp-links-notifications.php:70
+msgid "%s mentioned you in the link \"%s\""
+msgstr ""
+
+#: bp-links-notifications.php:72
+msgid ""
+"%s mentioned you in the link \"%s\":\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"To view and respond to the message, log in and visit: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+
+#: bp-links-settings.php:15
+msgid "Global Settings"
+msgstr ""
+
+#: bp-links-settings.php:21
+msgid "List Avatar Size"
+msgstr ""
+
+#: bp-links-settings.php:22
+msgid "Set the default avatar size for link lists."
+msgstr ""
+
+#: bp-links-settings.php:39
+msgid "Link to local page?"
+msgstr ""
+
+#: bp-links-settings.php:40
+msgid ""
+"The default behavior is to link the title link to the local link page when a "
+"link is clicked. Set this to No to send them directly to the external url."
+msgstr ""
+
+#: bp-links-settings.php:50
+msgid "Link to slug or ID?"
+msgstr ""
+
+#: bp-links-settings.php:51
+msgid ""
+"The default behavior is to use the link's unique text slug in permalink "
+"URLs. Set this to Numeric ID to use the link ID instead."
+msgstr ""
+
+#: bp-links-settings.php:55
+msgid "Text Slug"
+msgstr ""
+
+#: bp-links-settings.php:56
+msgid "Numeric ID"
+msgstr ""
+
+#: bp-links-settings.php:61
+msgid "Category URL Slug"
+msgstr ""
+
+#: bp-links-settings.php:62
+msgid ""
+"The default slug is \"category\"; Enter a different term to customize the "
+"category URL slug."
+msgstr ""
+
+#: bp-links-settings.php:68
+msgid "Custom Order By"
+msgstr ""
+
+#: bp-links-settings.php:69
+msgid ""
+"To override the default order and/or text of the Order By filter options, "
+"edit or remove them above. To reset them to the default, delete the entire "
+"contents of the box."
+msgstr ""
+
+#: bp-links-settings.php:79
+msgid "Directory Settings"
+msgstr ""
+
+#: bp-links-settings.php:85
+msgid "My Links Tab"
+msgstr ""
+
+#: bp-links-settings.php:86
+msgid ""
+"The default behavior is to show the My Links tab. Set this to \"No\" to hide "
+"the My Links tab."
+msgstr ""
+
+#: bp-links-settings.php:96
+msgid "Maximum Tabs"
+msgstr ""
+
+#: bp-links-settings.php:97
+msgid ""
+"Set the maximum number of tabs to display on directory top navigation to "
+"enable magic tabs."
+msgstr ""
+
+#: bp-links-settings.php:120
+msgid "Category Tabs"
+msgstr ""
+
+#: bp-links-settings.php:121
+msgid ""
+"The default behavior is to filter categories using a select box. Set this to "
+"\"Yes\" to add a tab for each category to the directory navigation instead."
+msgstr ""
+
+#: bp-links-settings.php:132
+msgid "Order By Tabs"
+msgstr ""
+
+#: bp-links-settings.php:133
+msgid ""
+"The default behavior is to change sorting order using a select box. Set this "
+"to \"Yes\" to add a tab for each order option to the directory sub-"
+"navigation instead."
+msgstr ""
+
+#: bp-links-settings.php:148
+msgid "Content Settings"
+msgstr ""
+
+#: bp-links-settings.php:154
+msgid "Allow Duplicate URLs?"
+msgstr ""
+
+#: bp-links-settings.php:155
+msgid ""
+"Set this to \"No\" to prevent duplicate URLs from being added to the "
+"directory."
+msgstr ""
+
+#: bp-links-settings.php:165
+msgid "Max. URL Characters"
+msgstr ""
+
+#: bp-links-settings.php:166
+msgid ""
+"Set this to the maximum number of characters allowed for a link URL. (Must "
+"be 255 or lower)"
+msgstr ""
+
+#: bp-links-settings.php:172
+msgid "Max. Name Characters"
+msgstr ""
+
+#: bp-links-settings.php:173
+msgid ""
+"Set this to the maximum number of characters allowed for a link name/title. "
+"(Must be 255 or lower)"
+msgstr ""
+
+#: bp-links-settings.php:179
+msgid "Max. Description Characters"
+msgstr ""
+
+#: bp-links-settings.php:180
+msgid ""
+"Set this to the maximum number of characters allowed for a link description."
+msgstr ""
+
+#: bp-links-settings.php:186
+msgid "Is description required?"
+msgstr ""
+
+#: bp-links-settings.php:187
+msgid ""
+"By default, every link must have a description. Set this to No to allow "
+"empty descriptions."
+msgstr ""
+
+#: bp-links-settings.php:197
+msgid "Category Input Type"
+msgstr ""
+
+#: bp-links-settings.php:198
+msgid ""
+"The default behavior is to use radio buttons to display categories on the "
+"create form. Set this to Select to use a select box instead."
+msgstr ""
+
+#: bp-links-settings.php:208
+msgid "Enable Page Fetching?"
+msgstr ""
+
+#: bp-links-settings.php:209
+msgid "Set this to \"No\" to disable page content fetching."
+msgstr ""
+
+#: bp-links-settings.php:219
+msgid "Show Avatar Options?"
+msgstr ""
+
+#: bp-links-settings.php:220
+msgid "Set this to \"No\" to hide the Edit Avatar Options."
+msgstr ""
+
+#: bp-links-settings.php:230
+msgid "Show Advanced Settings?"
+msgstr ""
+
+#: bp-links-settings.php:231
+msgid "Set this to \"No\" to hide the Edit Advanced Settings."
+msgstr ""
+
+#: bp-links-settings.php:241
+msgid "Suspend New Links?"
+msgstr ""
+
+#: bp-links-settings.php:242
+msgid ""
+"Set this to \"Yes\" to mark all new links as suspended when they are first "
+"created."
+msgstr ""
+
+#: bp-links-settings.php:257
+msgid "Voting Settings"
+msgstr ""
+
+#: bp-links-settings.php:263
+msgid "Allow members to vote on links?"
+msgstr ""
+
+#: bp-links-settings.php:264
+msgid "Voting is enabled by default."
+msgstr ""
+
+#: bp-links-settings.php:274
+msgid "Can members change their vote?"
+msgstr ""
+
+#: bp-links-settings.php:275
+msgid ""
+"The default behavior is to allow members to change their vote. Set this to "
+"No to prevent vote changing."
+msgstr ""
+
+#: bp-links-settings.php:285
+msgid "What kind of voting would you like?"
+msgstr ""
+
+#: bp-links-settings.php:286
+msgid ""
+"The default behavior is to allow members to vote UP or DOWN. Set this to "
+"\"Up Only\" to disable down votes."
+msgstr ""
+
+#: bp-links-settings.php:296
+msgid "Record voting activity?"
+msgstr ""
+
+#: bp-links-settings.php:297
+msgid ""
+"The default behavior is to record voting activity the first time a member "
+"votes on a link. Set this to No to disable voting activity recording."
+msgstr ""
+
+#: bp-links-settings.php:311
+msgid "Profile Settings"
+msgstr ""
+
+#: bp-links-settings.php:317 bp-links-settings.php:360
+msgid "Nav Position"
+msgstr ""
+
+#: bp-links-settings.php:318
+msgid ""
+"Enter a number to set the position of the Links tab in the profile main "
+"navigation."
+msgstr ""
+
+#: bp-links-settings.php:324
+msgid "Activity Nav Position"
+msgstr ""
+
+#: bp-links-settings.php:325
+msgid ""
+"Enter a number to set the position of the Links tab in the profile activity "
+"navigation."
+msgstr ""
+
+#: bp-links-settings.php:331 bp-links-settings.php:368
+msgid "Max. Activity History"
+msgstr ""
+
+#: bp-links-settings.php:332
+msgid ""
+"Limitations of the activity API require that we pass all link ids that we "
+"want to display activity for if we are limiting results to links owned by a "
+"single user. This settings allows you to override the default number of "
+"links that have recent entries in the activity stream which are passed to "
+"the activity API."
+msgstr ""
+
+#: bp-links-settings.php:342
+msgid "Groups Settings"
+msgstr ""
+
+#: bp-links-settings.php:348
+msgid "Groups integration"
+msgstr ""
+
+#: bp-links-settings.php:349
+msgid ""
+"Integration with the groups component is On by default. Set this to Off to "
+"disable all integration with groups."
+msgstr ""
+
+#: bp-links-settings.php:361
+msgid ""
+"Enter a number to set the position of the Links tab in the groups navigation."
+msgstr ""
+
+#: bp-links-settings.php:369
+msgid ""
+"This setting is identical to Profile Max Activity history, except it applies "
+"to links that have been shared with a single group."
+msgstr ""
+
+#: bp-links-settings.php:418
+msgid "Most Popular"
+msgstr ""
+
+#: bp-links-settings.php:419
+msgid "Highest Rated"
+msgstr ""
+
+#: bp-links-settings.php:420
+msgid "Most Votes"
+msgstr ""
+
+#: bp-links-settings.php:421
+msgid "Newly Created"
+msgstr ""
+
+#: bp-links-settings.php:422 themes/bp-links-admin/link-manager.php:74
+msgid "Last Active"
+msgstr ""
+
+#: bp-links-strings.php:7
+msgid "A Group"
+msgstr ""
+
+#: bp-links-strings.php:8
+msgid "All Group Links"
+msgstr ""
+
+#: bp-links-strings.php:9
+msgid "Cancel"
+msgstr ""
+
+#: bp-links-strings.php:10
+msgid "Create Group Link"
+msgstr ""
+
+#: bp-links-strings.php:11
+msgid "Failed to re-enable sharing this link with the %s group."
+msgstr ""
+
+#: bp-links-strings.php:12
+msgid "Loading sharing options has failed."
+msgstr ""
+
+#: bp-links-strings.php:13
+msgid "Moderation Settings"
+msgstr ""
+
+#: bp-links-strings.php:14
+msgid "My Group Links"
+msgstr ""
+
+#: bp-links-strings.php:15 themes/bp-links-default/single/activity.php:9
+msgid "No Filter"
+msgstr ""
+
+#: bp-links-strings.php:16
+msgid "Please Choose"
+msgstr ""
+
+#: bp-links-strings.php:17
+msgid "Remove from Group"
+msgstr ""
+
+#: bp-links-strings.php:18
+msgid "Remove from Profile"
+msgstr ""
+
+#: bp-links-strings.php:19
+msgid "Removing this link from your profile has failed."
+msgstr ""
+
+#: bp-links-strings.php:20
+msgid "Removing this link from this group has failed."
+msgstr ""
+
+#: bp-links-strings.php:21
+msgid "Select a group:"
+msgstr ""
+
+#: bp-links-strings.php:22
+msgid ""
+"Select yes to prevent anyone except the link owner and moderators from "
+"viewing the link."
+msgstr ""
+
+#: bp-links-strings.php:23
+msgid "Share"
+msgstr ""
+
+#: bp-links-strings.php:24
+msgid "Share Now"
+msgstr ""
+
+#: bp-links-strings.php:25
+msgid "Share this link in:"
+msgstr ""
+
+#: bp-links-strings.php:26
+msgid "Sharing a link with yourself is not allowed."
+msgstr ""
+
+#: bp-links-strings.php:27
+msgid "Sharing this link has failed."
+msgstr ""
+
+#: bp-links-strings.php:28
+msgid "Sharing this link in your profile has failed."
+msgstr ""
+
+#: bp-links-strings.php:29
+msgid "Sharing this link with the %s group has failed."
+msgstr ""
+
+#: bp-links-strings.php:30
+msgid "Sharing this link with the %s group was re-enabled."
+msgstr ""
+
+#: bp-links-strings.php:31
+msgid "Sharing with a group has failed."
+msgstr ""
+
+#: bp-links-strings.php:32
+msgid "Suspended"
+msgstr ""
+
+#: bp-links-strings.php:33
+msgid "Suspended by Moderator"
+msgstr ""
+
+#: bp-links-strings.php:34
+msgid "This link has already been shared in your profile."
+msgstr ""
+
+#: bp-links-strings.php:35
+msgid "This link has been shared in your profile."
+msgstr ""
+
+#: bp-links-strings.php:36
+msgid "This link has already been shared with the %s group."
+msgstr ""
+
+#: bp-links-strings.php:37
+msgid "This link has been removed from this group."
+msgstr ""
+
+#: bp-links-strings.php:38
+msgid "This link has been removed from your profile."
+msgstr ""
+
+#: bp-links-strings.php:39
+msgid "This link has been shared with the %s group."
+msgstr ""
+
+#: bp-links-strings.php:40
+msgid ""
+"This link was previously removed from the %s group by an admin or moderator."
+msgstr ""
+
+#: bp-links-strings.php:41
+msgid "You are not a member of the %s group."
+msgstr ""
+
+#: bp-links-strings.php:42
+msgid "You must be logged in to remove links."
+msgstr ""
+
+#: bp-links-strings.php:43
+msgid "You must be logged in to share links."
+msgstr ""
+
+#: bp-links-strings.php:46
+msgid "&laquo; more"
+msgstr ""
+
+#: bp-links-strings.php:47
+msgid "more &raquo;"
+msgstr ""
+
+#: bp-links-templatetags.php:421
+msgid "Public Link"
+msgstr ""
+
+#: bp-links-templatetags.php:423
+msgid "Friends Only Link"
+msgstr ""
+
+#: bp-links-templatetags.php:425
+msgid "Hidden Link"
+msgstr ""
+
+#: bp-links-templatetags.php:427
+msgid "Link"
+msgstr ""
+
+#: bp-links-templatetags.php:532
+msgid "not yet active"
+msgstr ""
+
+#: bp-links-templatetags.php:647
+msgid "%s vote"
+msgstr ""
+
+#: bp-links-templatetags.php:649 bp-links-widgets.php:138
+msgid "%s votes"
+msgstr ""
+
+#: bp-links-templatetags.php:770
+msgid "Viewing link %1$d to %2$d (of %3$d links)"
+msgstr ""
+
+#: bp-links-templatetags.php:807
+msgid "Edit Details"
+msgstr ""
+
+#: bp-links-templatetags.php:832
+msgid "This is a hidden link. Only the user who owns it can view it."
+msgstr ""
+
+#: bp-links-templatetags.php:834
+msgid "This is a friends only link. Only the owner's friends can view it."
+msgstr ""
+
+#: bp-links-templatetags.php:836
+msgid "You do not have permission to access this link."
+msgstr ""
+
+#: bp-links-templatetags.php:1319
+msgid "Viewing category %1$d to %2$d (of %3$d categories)"
+msgstr ""
+
+#: bp-links-templatetags.php:1509
+msgid "Yes"
+msgstr ""
+
+#: bp-links-templatetags.php:1510
+msgid "No"
+msgstr ""
+
+#: bp-links-templatetags.php:1514
+msgid "A member posts a comment on a link you created"
+msgstr ""
+
+#: bp-links-templatetags.php:1563 bp-links-widgets.php:36
+msgid "Votes"
+msgstr ""
+
+#: bp-links-templatetags.php:1672
+msgid "External Link"
+msgstr ""
+
+#: bp-links-templatetags.php:1707
+msgid "more..."
+msgstr ""
+
+#: bp-links-templatetags.php:1741
+msgid "Comments"
+msgstr ""
+
+#: bp-links-templatetags.php:1748 bp-links-widgets.php:132
+msgid "created %s"
+msgstr ""
+
+#: bp-links-widgets.php:13
+msgid "Your BuddyPress Links"
+msgstr ""
+
+#: bp-links-widgets.php:34
+msgid "Newest"
+msgstr ""
+
+#: bp-links-widgets.php:37
+msgid "Rating"
+msgstr ""
+
+#: bp-links-widgets.php:38
+msgid "Popular"
+msgstr ""
+
+#: bp-links-widgets.php:40
+msgid "Active"
+msgstr ""
+
+#: bp-links-widgets.php:54 bp-links-widgets.php:136
+msgid "%+d rating"
+msgstr ""
+
+#: bp-links-widgets.php:67
+msgid "There are no links to display."
+msgstr ""
+
+#: bp-links-widgets.php:88
+msgid "Max links to show:"
+msgstr ""
+
+#: bp-links-widgets.php:134 themes/bp-links-default/single/link-header.php:26
+msgid "active %s"
+msgstr ""
+
+#: bp-links-widgets.php:153
+msgid "No links matched the current filter."
+msgstr ""
+
+#: feeds/bp-links-feed.php:22
+msgid "Most Recent Links"
+msgstr ""
+
+#: feeds/bp-links-feed.php:26
+msgid "Most Recent Links Feed"
+msgstr ""
+
+#: feeds/bp-links-link-feed.php:21
+msgid "Link Activity"
+msgstr ""
+
+#: feeds/bp-links-link-feed.php:24
+msgid "%s - Link Activity Feed"
+msgstr ""
+
+#: feeds/bp-links-link-feed.php:43 feeds/bp-links-mylinks-feed.php:42
+msgid "Comments: %s"
+msgstr ""
+
+#: feeds/bp-links-mylinks-feed.php:21 feeds/bp-links-mylinks-feed.php:24
+msgid "My Links - Public Activity"
+msgstr ""
+
+#: lib/wp-settings-framework.php:282
+msgid "Save Changes"
+msgstr ""
+
+#: themes/bp-links-admin/category-edit.php:31
+msgid "Link Category Name"
+msgstr ""
+
+#: themes/bp-links-admin/category-edit.php:35
+msgid "Description (optional)"
+msgstr ""
+
+#: themes/bp-links-admin/category-edit.php:39
+msgid "Priority (optional)"
+msgstr ""
+
+#: themes/bp-links-admin/category-edit.php:40
+msgid "to"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:18
+msgid "Edit Categories"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:24
+msgid "Search Categories"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:35
+#: themes/bp-links-admin/link-manager.php:34
+msgid "Delete"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:35
+#: themes/bp-links-admin/link-manager.php:34
+msgid "Are you sure?"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:44
+msgid "Categories matching:"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:58
+#: themes/bp-links-default/single/forms/details.php:44
+msgid "Name"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:61
+#: themes/bp-links-default/single/forms/details.php:48
+msgid "Description"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:64
+msgid "Slug"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:67
+msgid "Priority"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:89
+#: themes/bp-links-admin/link-manager.php:98
+msgid "Edit"
+msgstr ""
+
+#: themes/bp-links-admin/category-list.php:99
+msgid "No categories found."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:26
+msgid "Plugin"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:31
+msgid "Version"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:36
+msgid "Community Support"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:41
+msgid "Pro Help Desk"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:60 themes/bp-links-admin/index.php:66
+#: themes/bp-links-admin/index.php:98
+msgid "Get Help"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:70 themes/bp-links-admin/index.php:102
+#: themes/bp-links-admin/index.php:141
+msgid "Upgrade Now"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:78 themes/bp-links-admin/sidebar.php:35
+msgid "BuddyPress Links Pro"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:88
+msgid "Not Installed"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:110
+msgid "Additional Activation Steps:"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:112
+msgid ""
+"These additional steps are required to get this plugin working after the "
+"first activation."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:115
+msgid ""
+"Click on <strong>Settings &gt; BuddyPress</strong> under the "
+"<strong>Dashboard</strong> menu."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:116
+msgid ""
+"Click the <strong>Pages</strong> tab on the <strong>BuddyPress</strong> "
+"settings screen."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:117
+msgid ""
+"Under directories, assign a page to the <strong>Links</strong> component by "
+"selecting an existing page, or creating a new one."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:118
+msgid "Click the <strong>Save</strong> button."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:119
+msgid ""
+"The <strong>Links</strong> item in your site navigation should now load the "
+"links component!"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:124
+msgid "There are two levels of support:"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:129
+msgid "Community Forums"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:132
+msgid ""
+"Get help from the plugin author and other users from our official plugin "
+"support forums."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:138 themes/bp-links-admin/index.php:140
+msgid "PressCrew Help Desk"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:145
+msgid ""
+"Purchasing the Pro Extension entitles you to premium support on <em>both</"
+"em> the free and pro plugin."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:150
+msgid "Pro Extension"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:152
+msgid "The pro extension, available for purchase in the"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:153
+msgid "PressCrew Shop"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:154
+msgid "adds the following additional features:"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:156
+msgid "Additional Rich Media Support"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:158
+msgid "Dailymotion"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:159
+msgid "Vimeo"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:161
+msgid "Member Links Sharing"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:163
+msgid "Share other member's links on their profile."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:164
+msgid "Share any link with a group they are a member of."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:166
+msgid "Groups Integration"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:168
+msgid ""
+"Group members can add a link to any group they are a member of, directly "
+"from the group."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:169
+msgid "Fully integrated with the group activity stream."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:170
+msgid ""
+"Each group has their own links mini-directory which lists only that group's "
+"links."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:171
+msgid "Separate tabs for listing all group links, or just my group links."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:172
+msgid "The same powerful category and order filtering is available."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:173
+msgid "Group administrators can remove group links, with prejudice."
+msgstr ""
+
+#: themes/bp-links-admin/index.php:176
+msgid "Developer Extras"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:178
+msgid "Trac Revision Log"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:179
+msgid "Trac Browser"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:182
+msgid "About the Author:"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:184
+msgid "Marshall Sorenson's Blog"
+msgstr ""
+
+#: themes/bp-links-admin/index.php:185
+msgid "MrMaz on WordPress.org"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:17
+msgid "Manage Links"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:21
+#: themes/bp-links-admin/link-manager.php:23
+msgid "Search Links"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:43
+msgid "Links matching:"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:59
+#: themes/bp-links-default/single/forms/details.php:13
+msgid "Details"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:62
+#: themes/bp-links-default/single/forms/details.php:19
+msgid "Category"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:65
+msgid "Type"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:68
+msgid "Owner"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:71
+msgid "Created"
+msgstr ""
+
+#: themes/bp-links-admin/link-manager.php:108
+msgid "No links found."
+msgstr ""
+
+#: themes/bp-links-admin/settings.php:25
+msgid "Setting applies to pro extension only"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:5
+msgid "Show Some Gratitude"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:8
+msgid ""
+"The ongoing development of this plugin is 100% financed by YOUR donations "
+"and purchases."
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:12
+msgid "Upgrade to the Pro Extension."
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:13
+msgid ""
+"Get powerful groups integration, link re-sharing, Dailymotion and Vimeo "
+"support and more!"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:16
+msgid "Make a small (or large) donation."
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:17
+msgid "Keep your karma clean, and the ramen noodles flowing!"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:24
+msgid "Make BuddyPress Rock!"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:27
+msgid ""
+"PressCrew creates themes and plugins built for BuddyPress from the ground up."
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:31
+msgid "Infinity Engine"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:32
+msgid "FREE theme with deep compatibility of BuddyPress and bbPress."
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:36
+msgid "Adds powerful features and gives you access to premium support."
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:39
+msgid "Group-O-Matic Pro"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:40
+msgid "Advanced BuddyPress plugin for dramatically boosting group memberships."
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:47
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: themes/bp-links-admin/sidebar.php:50
+msgid "If you need to know everything we do, the second it happens."
+msgstr ""
+
+#: themes/bp-links-default/activity/post-form.php:12
+msgid "Comment on this link, %s?"
+msgstr ""
+
+#: themes/bp-links-default/activity/post-form.php:23
+msgid "Post Update"
+msgstr ""
+
+#: themes/bp-links-default/index.php:23
+msgid "All Links"
+msgstr ""
+
+#: themes/bp-links-default/index.php:30
+#: themes/bp-links-default/single/activity.php:3
+msgid "RSS"
+msgstr ""
+
+#: themes/bp-links-default/links-loop.php:43
+msgid "There were no links found."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/avatar.php:12
+msgid "Delete Avatar"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/avatar.php:21
+msgid ""
+"Upload an image to use as an avatar for this link. The image will be shown "
+"on the main link page, and in search results."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/avatar.php:25
+msgid "Upload Image"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/avatar.php:33
+msgid "Crop Avatar"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/avatar.php:35
+msgid "Avatar to crop"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/avatar.php:38
+msgid "Avatar preview"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/avatar.php:41
+msgid "Crop Image"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/delete.php:10
+msgid ""
+"WARNING: Deleting this link will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/delete.php:13
+msgid "I understand the consequences of deleting this link."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:67
+msgid "Edit Avatar Options"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:73
+msgid "Current"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:83
+msgid "Customize"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:85
+msgid ""
+"After saving this link you will be directed to a page where you can "
+"customize the avatar."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:102
+msgid "Edit Advanced Settings"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:106
+msgid "Privacy Options"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:110
+msgid "This is a public link"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:113
+msgid "Any site member can see this link, and comment on it."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:114
+msgid "This link will be listed in the links directory and in search results."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:115
+msgid "Link content and activity will be visible to any site member."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:121
+msgid "This is a friends-only link"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:124
+msgid ""
+"Only users who are in your friends list can see the link and comment on it."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:125
+#: themes/bp-links-default/single/forms/details.php:136
+msgid ""
+"This link will NOT be listed in the links directory or in search results."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:126
+msgid "Link content and activity will only be visible to your friends."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:132
+msgid "This is a hidden link"
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:135
+msgid "Only you can see the link."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:137
+msgid "Link content and activity will only be visible to you."
+msgstr ""
+
+#: themes/bp-links-default/single/forms/details.php:151
+msgid "Save Link"
+msgstr ""
+
+#: themes/bp-links-default/single/link-header.php:7
+msgid "Link Owner"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/buddypress-links/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "BuddyPress Links is a link sharing component for BuddyPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Marshall Sorenson (MrMaz)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://marshallsorenson.com"
+msgstr ""
